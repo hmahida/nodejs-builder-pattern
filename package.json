@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-builder-pattern",
+  "version": "1.0.0",
+  "description": "Sample code showing builder pattern in js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
+  "engines": {
+    "node": "10.X.X"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmahida/nodejs-builder-pattern.git"
+  },
+  "keywords": [
+    "js",
+    "builder-pattern",
+    "nodejs"
+  ],
+  "author": "hmahida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmahida/nodejs-builder-pattern/issues"
+  },
+  "homepage": "https://github.com/hmahida/nodejs-builder-pattern#readme",
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "standard": "^14.3.3"
+  }
+}
