@@ -15,7 +15,6 @@ Two important points here;
  Employee can be:
 
         - Full Time Employee
-        - Part Time Employee
         - Employee Manager
 
 Customers have:
