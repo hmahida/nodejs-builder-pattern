@@ -1,7 +1,7 @@
 # nodejs-builder-pattern
 Sample code to show How/When to apply builder pattern using JS
 
-The intenet of Builder pattern is to 
+The intent of Builder pattern is to 
 # “Separate the construction of a complex object from its representation so that the same construction process can create different representations.” 
 
 Two important points here;
